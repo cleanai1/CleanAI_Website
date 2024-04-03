@@ -286,8 +286,8 @@ a {
     line-height: 0.5;
 }
 
-.home-content button {
-    padding: 20px 60px;
+.contact-us-btn {
+    padding: 12px 40px;
     font-size: 16px;
     background-color: var(--white);
     color: var(--primaryColor);
@@ -299,7 +299,7 @@ a {
     /* Adjust the shadow values as needed */
 }
 
-.home-content button:hover {
+.contact-us-btn:hover {
     background-color: var(--primaryColor);
     color: var(--white);
 }
@@ -451,6 +451,7 @@ a {
     font-size: 18px;
     color: var(--textSecondary);
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .learn-more-btn {
@@ -663,7 +664,7 @@ a {
 #aboutus {
     /* padding: 50px 0; */
     background: rgb(31, 143, 205);
-    background: linear-gradient(180deg, rgba(31, 143, 205, 1) -300%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(140deg, rgba(31, 143, 205, 1) -400%, rgba(255, 255, 255, 1) 60%);
 }
 
 .aboutus-row {
@@ -907,15 +908,18 @@ a {
 .learn-more {
     background-color: var(--primaryColor);
     color: #fff;
-    padding: 13px 50px;
+    padding: 10px 30px;
     font-size: 18px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    display: block;
     margin: 0 auto;
-    margin-top: 30px;
-
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
 }
 
 /* Media queries for tablet */
