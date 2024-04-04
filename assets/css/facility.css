@@ -449,8 +449,8 @@ a {
 .Industries-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1200px;
+    justify-content: space-between;
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
@@ -619,7 +619,7 @@ a {
 }
 
 .footer-col-left p {
-    font-size: 39px;
+    font-size: 32px;
     width: 100%;
     font-weight: 500;
     margin-top: 20px;
@@ -627,7 +627,7 @@ a {
 }
 
 .footer-col-left p span {
-    font-size: 39px;
+    font-size: 32px;
     width: 75%;
     font-weight: 600;
     color: var(--secondaryColor);

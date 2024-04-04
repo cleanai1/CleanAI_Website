@@ -356,11 +356,12 @@ a {
     /* Add padding around content */
 }
 
-.about-comp-content h4 {
-    font-size: 24px;
+.about-comp-content h2 {
+    font-size: 32px;
     margin-bottom: 10px;
+    font-weight: 500;
     color: var(--primaryColor);
-    letter-spacing: 1;
+    padding-bottom: 10px;
 }
 
 .about-comp-content p {
@@ -420,10 +421,12 @@ a {
     z-index: 2;
 }
 
-.our-vision-content h4 {
-    font-size: 24px;
+.our-vision-content h2 {
+    font-size: 32px;
     margin-bottom: 10px;
+    font-weight: 500;
     color: var(--primaryColor);
+    padding-bottom: 10px;
 }
 
 .our-vision-content p {
@@ -495,10 +498,12 @@ a {
     z-index: 2;
 }
 
-.our-mission-content h4 {
-    font-size: 24px;
+.our-mission-content h2 {
+    font-size: 32px;
     margin-bottom: 10px;
+    font-weight: 500;
     color: var(--primaryColor);
+    padding-bottom: 10px;
 }
 
 .our-mission-content p {
@@ -642,7 +647,7 @@ a {
 }
 
 .footer-col-left p {
-    font-size: 39px;
+    font-size: 32px;
     width: 100%;
     font-weight: 500;
     margin-top: 20px;
@@ -650,7 +655,7 @@ a {
 }
 
 .footer-col-left p span {
-    font-size: 39px;
+    font-size: 32px;
     width: 75%;
     font-weight: 600;
     color: var(--secondaryColor);
