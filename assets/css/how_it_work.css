@@ -97,9 +97,9 @@ a {
     color: #482ff7;
 }
 
-.custom-nav-link {
+/* .custom-nav-link {
     margin-right: 30px;
-}
+} */
 
 .custom-nav-link a {
     color: var(--appBlack);
@@ -237,8 +237,10 @@ a {
     padding: 50px 100px 50px 100px;
     margin-bottom: 80px;
     position: relative;
+    /* background: rgb(31, 143, 205);
+    background: linear-gradient(180deg, rgba(31, 143, 205, 1) -400%, rgba(255, 255, 255, 1) 60%); */
     background: rgb(31, 143, 205);
-    background: linear-gradient(180deg, rgba(31, 143, 205, 1) -400%, rgba(255, 255, 255, 1) 60%);
+    background: linear-gradient(140deg, rgba(31, 143, 205, 1) -500%, rgba(255, 255, 255, 1) 60%);
     /* Add position relative */
 }
 

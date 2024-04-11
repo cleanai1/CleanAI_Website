@@ -96,9 +96,9 @@ a {
     color: #482ff7;
 }
 
-.custom-nav-link {
+/* .custom-nav-link {
     margin-right: 30px;
-}
+} */
 
 .custom-nav-link a {
     color: var(--appBlack);
