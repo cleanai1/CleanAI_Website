@@ -255,8 +255,12 @@ a {
 
 .howitwork-container {
     display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
     flex-wrap: wrap;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     margin-bottom: 50px;
 }
 
