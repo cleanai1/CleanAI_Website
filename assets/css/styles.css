@@ -26,6 +26,7 @@ a {
     text-decoration: none;
 }
 
+
 /* ====== NavBar ====== */
 /* Add this CSS to fix the header */
 .fixed-header {
@@ -35,6 +36,7 @@ a {
     right: 0;
     z-index: 9999;
     background-color: var(--white);
+    padding: 0px 50px;
     box-shadow: 0 18px 32px rgba(0, 0, 0, 0.3);
     /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
 }
@@ -50,7 +52,7 @@ a {
 
 
 .nav-logo img {
-    max-width: 70%;
+    max-width: 40%;
 }
 
 .navbar {
@@ -187,12 +189,26 @@ a {
 
 /* === Responsive For Mobile view Navbar ==== */
 @media only screen and (max-width: 768px) {
+    #nav {
+        padding: 0px;
+        height: 63px;
+
+    }
+
+    .navbar {
+        height: 63px;
+    }
+
+    .nav-logo img {
+        max-width: 30%;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
         /* top: 5rem; */
         z-index: 1;
-        top: 9rem;
+        top: 6rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
@@ -345,6 +361,17 @@ a {
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
+
+    #home {
+
+        height: 45vh;
+        background: rgb(31, 143, 205);
+        background: linear-gradient(140deg, rgba(31, 143, 205, 1) -500%, rgba(255, 255, 255, 1) 60%);
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+    }
+
     .home-content {
         padding: 20px;
         /* Adjust padding for mobile */
@@ -352,14 +379,43 @@ a {
         /* Center content on mobile */
     }
 
-    .home-content h2 {
-        font-size: 36px;
-        /* Reduce font size for mobile */
+    .home-logo {
+        width: 70vw;
+        margin-bottom: 26px;
     }
 
-    .home-content p {
+    .home-container {
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        transform: translate(5%, -50%);
+        text-align: center;
+    }
+
+    .home-content {
+        text-align: left;
+    }
+
+    .home-content h1 {
+        font-size: 5.5vw;
+    }
+
+    .home-content h1 span {
+        font-size: 9vw;
+        line-height: 1.2;
+    }
+
+    .contact-us-btn {
+        padding: 10px 20px;
         font-size: 16px;
-        /* Reduce font size for mobile */
+        background-color: var(--white);
+        color: var(--primaryColor);
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        /* Adjust the shadow values as needed */
     }
 
     .home-row {
@@ -367,9 +423,14 @@ a {
     }
 
     .home-column {
+
         width: 100%;
         padding: 0;
         margin-bottom: 20px;
+    }
+
+    .home-profile {
+        display: none;
     }
 }
 
@@ -384,7 +445,6 @@ a {
 
 .analytics-contain {
     width: 100%;
-
     align-items: center;
     text-align: center;
 }
@@ -405,6 +465,45 @@ a {
 
 .analytics-img {
     width: 100%;
+}
+
+.refined_services-mobile-img {
+    display: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .analytics-container {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .analytics-contain h4 {
+        font-size: 4vw;
+        padding-bottom: 20px;
+        color: var(--primaryColor);
+    }
+
+
+
+    .analytics-contain p {
+        font-size: 3vw;
+        display: none;
+    }
+
+    .refined_services-mobile-img {
+        display: block;
+    }
+
+    .refined_services-web-img {
+        display: none;
+    }
+
+    .analytics-img {
+        width: 100%;
+    }
 }
 
 /* ====== Our Services ====== */
@@ -486,6 +585,28 @@ a {
         max-width: calc(100% - 20px);
         /* Adjust column width for responsiveness */
     }
+
+    #our-services h2 {
+        font-size: 6vw;
+        margin-bottom: 10px;
+        font-weight: 500;
+        color: var(--primaryColor);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    #our-services {
+        background-color: rgba(31, 143, 205, 0.1);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .our-services-column h5 {
+        margin-top: 0px;
+        font-size: 4vw;
+    }
+
+
 }
 
 
@@ -629,9 +750,11 @@ a {
 
 /* Media queries for tablet */
 @media (max-width: 768px) {
+
     #howitwork {
         padding: 50px 20px;
         /* Adjust padding for responsiveness */
+        display: none;
     }
 
     .p1,
@@ -744,6 +867,10 @@ a {
     color: var(--primaryColor);
 }
 
+.about-img-mobile {
+    display: none;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
     .aboutus-content {
@@ -754,12 +881,12 @@ a {
     }
 
     .aboutus-content h2 {
-        font-size: 36px;
+        font-size: 6vw;
         /* Reduce font size for mobile */
     }
 
     .aboutus-content p {
-        font-size: 16px;
+        font-size: 15px;
         /* Reduce font size for mobile */
     }
 
@@ -771,6 +898,14 @@ a {
         width: 100%;
         padding: 0;
         margin-bottom: 20px;
+    }
+
+    .about-img-mobile {
+        display: block;
+    }
+
+    .about-img-web {
+        display: none;
     }
 }
 
@@ -828,6 +963,7 @@ a {
     #Industries {
         padding-left: 20px;
         padding-right: 20px;
+        display: none;
     }
 
     .Industries-column {
@@ -940,8 +1076,24 @@ a {
     /* Add your desired hover color */
 }
 
+.howitwork-img-mobile {
+    display: none;
+}
+
+.report-mobile {
+    display: none;
+}
+
 /* Media queries for tablet */
 @media (max-width: 768px) {
+    .howitwork-img-mobile {
+        display: block;
+    }
+
+    .howitwork-img-web {
+        display: none;
+    }
+
     #yourwork {
         padding: 50px 20px;
         /* Adjust padding for responsiveness */
@@ -983,6 +1135,30 @@ a {
         font-size: 10px;
 
     }
+
+    .reporst-web {
+        display: none;
+    }
+
+    .report-mobile {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .report-mobile-img {
+        width: 40px !important;
+    }
+
+    .report-mobile p {
+        margin-bottom: 30px;
+        font-size: 3.5vw;
+    }
+
+    .learn-more {
+        width: 40%;
+        font-size: 3.5vw;
+    }
 }
 
 /* Media queries for mobile */
@@ -999,10 +1175,33 @@ a {
 /* ====== Template Section ====== */
 #temp {
     margin-top: 50px;
+
+}
+
+.checklist_mobile {
+    display: none;
 }
 
 #temp img {
     width: 100%;
+}
+
+/* Media queries for tablet */
+@media (max-width: 768px) {
+    .checklist_mobile {
+        display: block;
+        width: 60% !important;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 0;
+
+    }
+
+    .checklist_web {
+        display: none;
+
+    }
 }
 
 /* ====== Footer Section ====== */
@@ -1022,6 +1221,8 @@ a {
     padding-right: 150px;
     padding-top: 50px;
     margin-top: -5px;
+    position: relative;
+    z-index: 0;
 
 }
 
@@ -1168,6 +1369,14 @@ a {
     text-align: right;
 }
 
+.footer-social-mobile {
+    display: none;
+}
+
+.footer-contact-mobile {
+    display: none;
+}
+
 /* Media queries for tablet */
 @media (max-width: 768px) {
     #footer {
@@ -1180,11 +1389,7 @@ a {
         /* Stack columns vertically */
     }
 
-    .footer-col {
-        width: 100%;
-        margin-bottom: 20px;
-        /* Add some space between columns */
-    }
+
 
     .footer-col-left {
         text-align: center;
@@ -1199,7 +1404,7 @@ a {
 
     .social-icons {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         /* Center align the social icons */
         margin-bottom: 20px;
         /* Add some space between social icons and contact icons */
@@ -1210,13 +1415,51 @@ a {
         /* Adjust spacing between social icons */
     }
 
+    .footer-contact-mobile {
+        display: block;
+    }
+
+    .footer-contact-web {
+        display: none;
+    }
+
     .footer-bottom-row {
+        flex-direction: column;
+        /* Display items in a column */
+        align-items: center;
+        /* Center align items horizontally */
+        padding-bottom: 30px;
         margin-top: 0px;
     }
 
     .footer-col {
+        text-align: center;
+        /* Center align text within columns */
+        margin-bottom: 20px;
+        /* Add spacing between columns */
+    }
 
-        font-size: 12px;
+    .footer-col p {
+        font-size: 4vw;
+    }
+
+    .footer-social-mobile {
+        position: relative;
+        text-align: center;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .footer-social-web {
+        display: none;
+    }
+
+    .footer-bottom-row .footer-col:first-child {
+        text-align: center;
+    }
+
+    .footer-bottom-row .footer-col:last-child {
+        text-align: center;
     }
 }
 

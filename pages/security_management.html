@@ -26,10 +26,11 @@
     <section id="nav">
         <header class="header">
             <nav class="navbar">
-                <a class="nav-logo" href="#"><img src="../assets/images/logos/final_logo.png" alt="" width="100px"></a>
+                <a class="nav-logo" href="../index.html"><img src="../assets/images/logos/CleanAI Logo.png" alt=""
+                        width="100px"></a>
                 <ul class="nav-menu">
                     <li class="nav-item custom-nav-link">
-                        <a href="../index.html" class="nav-link ">Home</a>
+                        <a href="../index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item custom-nav-link services-dropdown">
                         <a href="#" class="nav-link selected">Services <i class="ri-arrow-down-s-line"></i></a>
@@ -41,18 +42,20 @@
                     <li class="nav-item custom-nav-link services-dropdown">
                         <a href="#" class="nav-link">Our Innovation<i class="ri-arrow-down-s-line"></i></a>
                         <div class="dropdown-content">
-                            <a href="../pages/how_it_work.html" class="nav-link">How It Works</a>
-                            <a href="../pages/dashboard_analytics.html" class="nav-link">Dashboard & Analytics</a>
+                            <a href="how_it_work.html" class="nav-link">How It Works</a>
+                            <a href="dashboard_analytics.html" class="nav-link">Dashboard & Analytics</a>
                         </div>
                     </li>
                     <li class="nav-item custom-nav-link">
                         <a href="aboutus.html" class="nav-link">About Us</a>
                         <!-- <a href="#about" class="nav-link">About Us</a> -->
                     </li>
+
                     <li class="nav-item ">
                         <a href="contactus.html" class="nav-link contact-btn">Contact Us</a>
                         <!-- <a href="" class="nav-link contact-btn">Contact Us</a> -->
                     </li>
+
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -63,17 +66,24 @@
         </header>
     </section>
 
+
+
     <!-- ===== Hero ===== -->
-    <section class="hero">
-        <img class="sm-home" src="../assets/images/security/Security-img.png" alt="">
-        <img class="sm-bg" src="../assets/images/security/security-bg (2).png" alt="">
+    <section class="hero hero-web">
+        <img class="sm-home" src="../assets/images/security/sm-bg.png" alt="">
+        <img class="sm-bg" src="../assets/images/security/sm-overlay.png" alt="">
     </section>
 
+    <!-- ===== Hero ===== -->
+    <section class="hero hero-mobile">
+        <img class="sm-home hero-mobile-img" src="../assets/images/security/sm-bg.png" alt="">
+        <img class="sm-bg hero-mobile-img" src="../assets/images/security/sm-overlay.png" alt="">
+    </section>
 
     <!-- ===== Revolutionizing Security Management =====  -->
     <section class="sm-services">
         <h2>Revolutionizing Security Management with <span>Power of AI</span></h2>
-        <div class="sm-services-cards">
+        <div class="sm-services-cards sm-services-card-web">
             <!-- First Row -->
             <div class="sm-services-card">
                 <img src="../assets/images/security/sm-1.png" alt="">
@@ -180,6 +190,70 @@
         </div>
     </section>
 
+    <section>
+        <div class="sm-services-cards-mobile">
+            <!-- First Row -->
+            <div class="sm-services-card-mobile">
+                <img src="../assets/images/security/sm-1.png" alt="">
+                <h5>Housekeeping Services</h5>
+            </div>
+            <div class="sm-services-card-mobile">
+                <h5>Pantry Services</h5>
+                <img src="../assets/images/security/sm-2.png" alt="">
+            </div>
+            <div class="sm-services-card-mobile">
+                <img src="../assets/images/security/sm-3.png" alt="">
+                <h5>Parking assistance and valet services</h5>
+
+            </div>
+            <!-- Second Row -->
+            <div class="sm-services-card-mobile">
+                <h5>Airport Porter Services</h5>
+                <img src="../assets/images/security/sm-4.png" alt="">
+            </div>
+            <div class="sm-services-card-mobile">
+                <img src="../assets/images/security/sm-5.png">
+                <h5>Hospital Porter Services</h5>
+
+            </div>
+            <div class="sm-services-card-mobile">
+                <h5>Facade Cleaning Services</h5>
+                <img src="../assets/images/security/sm-6.png" alt="">
+            </div>
+
+            <!-- Third Row -->
+            <div class="sm-services-card-mobile">
+                <img src="../assets/images/security/sm-7.png" alt="">
+                <h5>Garden and Landscaping Services</h5>
+
+            </div>
+            <div class="sm-services-card-mobile">
+
+                <h5>Store and sales assistance services</h5>
+                <img src="../assets/images/security/sm-8.png" alt="">
+
+            </div>
+            <div class="sm-services-card-mobile">
+                <img src="../assets/images/security/sm-9.png" alt="">
+                <h5>Waste Management & Disposal Services</h5>
+
+            </div>
+            <!-- 4 Row -->
+            <div class="sm-services-card-mobile">
+
+                <h5>Event Support services</h5>
+                <img src="../assets/images/security/sm-10.png" alt="">
+
+            </div>
+            <div class="sm-services-card-mobile">
+                <img src="../assets/images/security/sm-11.png" alt="">
+                <h5>Front Desk services</h5>
+
+            </div>
+
+        </div>
+    </section>
+
 
     <!-- ===== Extra Cost? ===== -->
     <section id="cost">
@@ -248,7 +322,6 @@
 
 
     <!-- <section id="about" style="height: 700px; background-color: blueviolet;">About Section</section> -->
-
     <!-- ===== Footer ===== -->
     <footer id="footer">
         <div class="footer-row">
@@ -256,10 +329,10 @@
                 <img src="../assets/images/footerLogo.png" alt="Logo">
                 <p>Revolutionizing Facility & Security Management with <span>Power of AI</span> </p>
             </div>
-            <div class="footer-col footer-col-right">
+            <div class="footer-col footer-col-right footer-social-web">
                 <p>Follow us on:</p>
                 <ul class="social-icons">
-                    <li class="instagram"><a target="_blank" href="#"><i class="ri-instagram-line"></i></a></li>
+                    <!-- <li class="instagram"><a target="_blank" href="#"><i class="ri-instagram-line"></i></a></li> -->
                     <li class="facebook"><a target="_blank"
                             href="https://www.facebook.com/profile.php?id=61557873663884"><i
                                 class="ri-facebook-box-line"></i></a></li>
@@ -272,8 +345,9 @@
                 </ul>
 
             </div>
+
         </div>
-        <div class="footer-bottom-row">
+        <div class="footer-bottom-row footer-contact-web">
             <div class="footer-col">
                 <p><i class="ri-phone-line footer-icon"></i> +91 9766959523</p>
             </div>
@@ -285,13 +359,45 @@
             </div>
         </div>
 
+        <div class="footer-bottom-row footer-contact-mobile">
+
+            <div class="footer-col">
+                <i class="ri-phone-line footer-icon"></i>
+                <p> +91 9766959523</p>
+            </div>
+
+            <div class="footer-col">
+                <i class="ri-mail-line footer-icon"></i>
+                <p> sales@cleanai.in</p>
+            </div>
+
+            <div class="footer-col">
+                <i class="ri-earth-line footer-icon"></i>
+                <p> <a href="#" style="color: white;text-align: center;">www.cleanai.in</a></p>
+            </div>
+        </div>
+        <div class="footer-col footer-col-right footer-social-mobile">
+            <p>Follow us on:</p>
+            <ul class="social-icons">
+                <!-- <li class="instagram"><a target="_blank" href="#"><i class="ri-instagram-line"></i></a></li> -->
+                <li class="facebook"><a target="_blank" href="https://www.facebook.com/profile.php?id=61557873663884"><i
+                            class="ri-facebook-box-line"></i></a></li>
+                <li class="linkedin"><a target="_blank"
+                        href="https://www.linkedin.com/company/102342154/admin/feed/posts/?feedType=following"><i
+                            class="ri-linkedin-box-line"></i></a></li>
+                <li class="youtube"><a target="_blank"
+                        href="https://www.youtube.com/channel/UCoZbwcH-HanyMt4EorfwM_A"><i
+                            class="ri-youtube-line"></i></a></li>
+            </ul>
+
+        </div>
+
     </footer>
 
     <!-- ===== JS ===== -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="../assets/js/main.js"></script>
-
 </body>
 
 </html>
