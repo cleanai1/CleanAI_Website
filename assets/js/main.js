@@ -157,8 +157,8 @@ sr.reveal('.image-container-img', {
     reset: true
 });
 
-sr.reveal('.p', { duration: 6000 });
-sr.reveal('.how-works-btn', { duration: 6000 });
+sr.reveal('.p', { duration: 3000 });
+sr.reveal('.how-works-btn', { duration: 3000 });
 
 sr.reveal('.aboutus-content-h2', {
     delay: 20,
@@ -178,8 +178,8 @@ sr.reveal('.aboutus-content-p', {
     reset: true
 });
 
-sr.reveal('.aboutus-btn', { duration: 6000 });
-sr.reveal('.aboutus-column', { duration: 6000 });
+sr.reveal('.aboutus-btn', { duration: 3000 });
+sr.reveal('.aboutus-column', { duration: 3000 });
 
 sr.reveal('.Industries-h2', {
     delay: 20,
@@ -190,7 +190,7 @@ sr.reveal('.Industries-h2', {
     reset: true
 });
 sr.reveal('.Industries-column-1', {
-    delay: 100,
+    delay: 25,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -199,7 +199,7 @@ sr.reveal('.Industries-column-1', {
 });
 
 sr.reveal('.Industries-column-2', {
-    delay: 300,
+    delay: 50,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -207,7 +207,7 @@ sr.reveal('.Industries-column-2', {
     reset: true
 });
 sr.reveal('.Industries-column-3', {
-    delay: 600,
+    delay: 75,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -215,7 +215,7 @@ sr.reveal('.Industries-column-3', {
     reset: true
 });
 sr.reveal('.Industries-column-4', {
-    delay: 900,
+    delay: 100,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -223,7 +223,7 @@ sr.reveal('.Industries-column-4', {
     reset: true
 });
 sr.reveal('.Industries-column-5', {
-    delay: 1100,
+    delay: 125,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -250,7 +250,7 @@ sr.reveal('.howitwork-img-ani', {
 });
 
 sr.reveal('.yourwork-p1', {
-    delay: 100,
+    delay: 25,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -259,7 +259,7 @@ sr.reveal('.yourwork-p1', {
 });
 
 sr.reveal('.yourwork-p2', {
-    delay: 300,
+    delay: 50,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -267,7 +267,7 @@ sr.reveal('.yourwork-p2', {
     reset: true
 });
 sr.reveal('.yourwork-p3', {
-    delay: 600,
+    delay: 75,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -275,7 +275,7 @@ sr.reveal('.yourwork-p3', {
     reset: true
 });
 sr.reveal('.yourwork-p4', {
-    delay: 900,
+    delay: 100,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -283,7 +283,7 @@ sr.reveal('.yourwork-p4', {
     reset: true
 });
 sr.reveal('.yourwork-p5', {
-    delay: 1100,
+    delay: 125,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -291,14 +291,14 @@ sr.reveal('.yourwork-p5', {
     reset: true
 });
 sr.reveal('.yourwork-p6', {
-    delay: 1300,
+    delay: 150,
     duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
     reset: true
 });
-sr.reveal('.learn-more', { duration: 6000 });
+sr.reveal('.learn-more', { duration: 3000 });
 
 // ======================================
 //     Facility Services Animation
@@ -322,7 +322,7 @@ sr.reveal('.fm-services-card-1', {
     reset: true
 });
 sr.reveal('.fm-services-card-2', {
-    delay: 100,
+    delay: 25,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -330,7 +330,7 @@ sr.reveal('.fm-services-card-2', {
     reset: true
 });
 sr.reveal('.fm-services-card-3', {
-    delay: 150,
+    delay: 50,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -338,7 +338,7 @@ sr.reveal('.fm-services-card-3', {
     reset: true
 });
 sr.reveal('.fm-services-card-4', {
-    delay: 200,
+    delay: 75,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -346,7 +346,7 @@ sr.reveal('.fm-services-card-4', {
     reset: true
 });
 sr.reveal('.fm-services-card-5', {
-    delay: 250,
+    delay: 100,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -354,7 +354,7 @@ sr.reveal('.fm-services-card-5', {
     reset: true
 });
 sr.reveal('.fm-services-card-6', {
-    delay: 300,
+    delay: 125,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -362,7 +362,7 @@ sr.reveal('.fm-services-card-6', {
     reset: true
 });
 sr.reveal('.fm-services-card-7', {
-    delay: 350,
+    delay: 150,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -370,7 +370,7 @@ sr.reveal('.fm-services-card-7', {
     reset: true
 });
 sr.reveal('.fm-services-card-8', {
-    delay: 400,
+    delay: 175,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -378,7 +378,7 @@ sr.reveal('.fm-services-card-8', {
     reset: true
 });
 sr.reveal('.fm-services-card-9', {
-    delay: 450,
+    delay: 200,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -386,7 +386,7 @@ sr.reveal('.fm-services-card-9', {
     reset: true
 });
 sr.reveal('.fm-services-card-10', {
-    delay: 500,
+    delay: 225,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -394,7 +394,7 @@ sr.reveal('.fm-services-card-10', {
     reset: true
 });
 sr.reveal('.fm-services-card-11', {
-    delay: 550,
+    delay: 250,
     duration: 1000,
     opacity: 0,
     distance: "50%",
@@ -507,7 +507,7 @@ sr.reveal('.cost-column-1', {
     origin: "top",
     reset: true
 });
-sr.reveal('.cost-img-ani', { duration: 6000 });
+sr.reveal('.cost-img-ani', { duration: 3000 });
 
 sr.reveal('.template-col', {
     delay: 20,
@@ -517,7 +517,7 @@ sr.reveal('.template-col', {
     origin: "top",
     reset: true
 });
-sr.reveal('.template-column-img', { duration: 6000 });
+sr.reveal('.template-column-img', { duration: 3000 });
 // sr.reveal('.aboutus-column', {
 //     delay: 20,
 //     duration: 1000,
