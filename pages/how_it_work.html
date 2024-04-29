@@ -26,7 +26,8 @@
     <section id="nav">
         <header class="header">
             <nav class="navbar">
-                <a class="nav-logo" href="#"><img src="../assets/images/logos/final_logo.png" alt="" width="100px"></a>
+                <a class="nav-logo" href="../index.html"><img src="../assets/images/logos/CleanAI Logo.png" alt=""
+                        width="100px"></a>
                 <ul class="nav-menu">
                     <li class="nav-item custom-nav-link">
                         <a href="../index.html" class="nav-link ">Home</a>
@@ -39,20 +40,22 @@
                         </div>
                     </li>
                     <li class="nav-item custom-nav-link services-dropdown">
-                        <a href="#" class="nav-link">Our Innovation<i class="ri-arrow-down-s-line"></i></a>
+                        <a href="#" class="nav-link selected">Our Innovation<i class="ri-arrow-down-s-line"></i></a>
                         <div class="dropdown-content">
-                            <a href="../pages/how_it_work.html" class="nav-link">How It Works</a>
-                            <a href="../pages/dashboard_analytics.html" class="nav-link">Dashboard & Analytics</a>
+                            <a href="how_it_work.html" class="nav-link">How It Works</a>
+                            <a href="dashboard_analytics.html" class="nav-link">Dashboard & Analytics</a>
                         </div>
                     </li>
                     <li class="nav-item custom-nav-link">
                         <a href="aboutus.html" class="nav-link">About Us</a>
                         <!-- <a href="#about" class="nav-link">About Us</a> -->
                     </li>
+
                     <li class="nav-item ">
                         <a href="contactus.html" class="nav-link contact-btn">Contact Us</a>
                         <!-- <a href="" class="nav-link contact-btn">Contact Us</a> -->
                     </li>
+
                 </ul>
                 <div class="hamburger">
                     <span class="bar"></span>
@@ -65,7 +68,7 @@
 
 
     <!-- ===== How it Works ===== -->
-    <section id="howitwork">
+    <section id="howitwork" class="howitwork-web">
         <h2>How it works?</h2>
         <div class="howitwork-container">
             <div class="image-container">
@@ -84,9 +87,28 @@
         </div>
     </section>
 
+    <section class="howitwork-mobile">
+        <div class="howitwork-mobile-container">
+            <h2>How it works?</h2>
+            <p>Video capturing & AI monitoring</p>
+            <img src="../assets/images/how_it_work/howitwork-mobile.png " alt="">
+            <p class="p1">Computer <br> Vision</p>
+            <p class="p2">Digital Image <br> Processing</p>
+            <!-- <p class="p3">Video capturing & <br> AI monitoring</p> -->
+            <p class="p4">Cloud</p>
+            <p class="p5">AI Powered Monitoring</p>
+            <p class="p6">Facility <br> Management</p>
+            <p class="p7">Security <br> Management</p>
+            <p class="p8">Performance <br> Dashboards</p>
+            <p class="p9">Real-Time <br> Reporting</p>
+            <p class="p10">Task <br> Monitoring</p>
+        </div>
+
+    </section>
+
 
     <!-- ===== assign-task ===== -->
-    <section id="assign-task">
+    <section id="assign-task" class="assign-task-web">
         <div class="assign-task-row">
             <div class="assign-task-column">
                 <img src="../assets/images/how_it_work/work-1.png" alt="">
@@ -100,8 +122,23 @@
         </div>
     </section>
 
+    <!-- ===== assign-task ===== -->
+    <section id="assign-task-mobile" class="assign-task-mobile">
+        <div class="assign-task-row-mobile">
+            <div class="assign-task-column-mobile">
+                <img src="../assets/images/how_it_work/work-1.png" alt="">
+            </div>
+            <div class="assign-task-column-mobile">
+                <h1>Assign Tasks and check <br> Real time progress</h1>
+                <p>Management workflows and track progress in real time. Get accurate data that boosts productivity and
+                    increases
+                    efficiency.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- ===== Power of AI-task ===== -->
-    <section id="power-ai">
+    <section id="power-ai" class="power-ai-web">
         <div class="power-ai-row">
             <div class="power-ai-column">
                 <h1>With the Power of AI</h1>
@@ -113,9 +150,22 @@
         </div>
     </section>
 
+    <!-- <section id="power-ai-mobile" class="power-ai-mobile">
+        <div class="power-ai-row-mobile">
+            <div class="power-ai-column-mobile">
+                <img src="../assets/images/how_it_work/work-2.png" alt="">
+            </div>
+            <div class="power-ai-column-mobile">
+                <h1>With the Power of AI</h1>
+                <p>You set the threshold for cleanliness. Our AI will verify it. Progress? check. Quality? check.</p>
+            </div>
+
+        </div>
+    </section> -->
+
 
     <!-- ===== verified ===== -->
-    <section id="verified">
+    <section id="verified" class="verified-web">
         <div class="verified-row">
             <div class="verified-column">
                 <img src="../assets/images/how_it_work/work-3.png" alt="">
@@ -129,6 +179,20 @@
         </div>
     </section>
 
+    <!-- <section id="verified-mobile" class="verified-mobile">
+        <div class="verified-row-mobile">
+            <div class="verified-column-mobile">
+                <img src="../assets/images/how_it_work/work-3.png" alt="">
+            </div>
+            <div class="verified-column-mobile">
+                <h1>Get verified reports instantly</h1>
+                <p>A full picture of your entire facility at a glance. Get actionable reports anytime, allowing you to
+                    drive the change in
+                    your facility.</p>
+            </div>
+        </div>
+    </section> -->
+
     <!-- <section id="about" style="height: 700px; background-color: blueviolet;">About Section</section> -->
 
     <!-- ===== Footer ===== -->
@@ -138,10 +202,10 @@
                 <img src="../assets/images/footerLogo.png" alt="Logo">
                 <p>Revolutionizing Facility & Security Management with <span>Power of AI</span> </p>
             </div>
-            <div class="footer-col footer-col-right">
+            <div class="footer-col footer-col-right footer-social-web">
                 <p>Follow us on:</p>
                 <ul class="social-icons">
-                    <li class="instagram"><a target="_blank" href="#"><i class="ri-instagram-line"></i></a></li>
+                    <!-- <li class="instagram"><a target="_blank" href="#"><i class="ri-instagram-line"></i></a></li> -->
                     <li class="facebook"><a target="_blank"
                             href="https://www.facebook.com/profile.php?id=61557873663884"><i
                                 class="ri-facebook-box-line"></i></a></li>
@@ -154,8 +218,9 @@
                 </ul>
 
             </div>
+
         </div>
-        <div class="footer-bottom-row">
+        <div class="footer-bottom-row footer-contact-web">
             <div class="footer-col">
                 <p><i class="ri-phone-line footer-icon"></i> +91 9766959523</p>
             </div>
@@ -167,8 +232,43 @@
             </div>
         </div>
 
-    </footer>
+        <div class="footer-bottom-row footer-contact-mobile">
 
+            <div class="footer-col">
+                <i class="ri-phone-line footer-icon"></i>
+                <p> +91 9766959523</p>
+            </div>
+
+            <div class="footer-col">
+                <i class="ri-mail-line footer-icon"></i>
+                <p> sales@cleanai.in</p>
+            </div>
+
+            <div class="footer-col">
+                <i class="ri-earth-line footer-icon"></i>
+                <p> <a href="#" style="color: white;text-align: center;">www.cleanai.in</a></p>
+            </div>
+        </div>
+
+        <div class="footer-col footer-col-right footer-social-mobile">
+            <p>Follow us on:</p>
+            <ul class="social-icons">
+                <!-- <li class="instagram"><a target="_blank" href="#"><i class="ri-instagram-line"></i></a></li> -->
+                <li class="facebook"><a target="_blank" href="https://www.facebook.com/profile.php?id=61557873663884"><i
+                            class="ri-facebook-box-line"></i></a></li>
+                <li class="linkedin"><a target="_blank"
+                        href="https://www.linkedin.com/company/102342154/admin/feed/posts/?feedType=following"><i
+                            class="ri-linkedin-box-line"></i></a></li>
+                <li class="youtube"><a target="_blank"
+                        href="https://www.youtube.com/channel/UCoZbwcH-HanyMt4EorfwM_A"><i
+                            class="ri-youtube-line"></i></a></li>
+            </ul>
+
+        </div>
+
+    </footer>
+    <!-- Scroll to top button -->
+    <a href="#" id="scrollToTopBtn" title="Go to top">&#8593;</a>
     <!-- ===== JS ===== -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>

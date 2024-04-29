@@ -20,7 +20,7 @@
 
     <!-- ===== Icons Remixicon ===== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
-
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body id="body">
@@ -110,7 +110,7 @@
 
     <!-- ===== Our Services ===== -->
     <section id="our-services">
-        <h2>Our Services</h2>
+        <h2 class="our-services-h2">Our Services</h2>
         <div class="our-services-row">
             <div class="our-services-column">
                 <img src="./assets/images/Facility_M.png" alt="">
@@ -127,21 +127,21 @@
 
     <!-- ===== How it Works ===== -->
     <section id="howitwork">
-        <h2>How it works?</h2>
+        <h2 class="howitwork-h2">How it works?</h2>
         <div class="howitwork-container">
             <div class="image-container">
-                <img src="assets/images/howitwork.png" alt="">
+                <img class="image-container-img" src="assets/images/howitwork.png" alt="">
 
-                <p class="p1">Computer <br> Vision</p>
-                <p class="p2">Digital Image <br> Processing</p>
-                <p class="p3">Video capturing & <br> AI monitoring</p>
-                <p class="p4">Cloud</p>
-                <p class="p5">AI Powered Monitoring</p>
-                <p class="p6">Facility <br> Management</p>
-                <p class="p7">Security <br> Management</p>
-                <p class="p8">Performance <br> Dashboards</p>
-                <p class="p9">Real-Time <br> Reporting</p>
-                <p class="p10">Task <br> Monitoring</p>
+                <p class="p1 p">Computer <br> Vision</p>
+                <p class="p2 p">Digital Image <br> Processing</p>
+                <p class="p3 p">Video capturing & <br> AI monitoring</p>
+                <p class="p4 p">Cloud</p>
+                <p class="p5 p">AI Powered Monitoring</p>
+                <p class="p6 p">Facility <br> Management</p>
+                <p class="p7 p">Security <br> Management</p>
+                <p class="p8 p">Performance <br> Dashboards</p>
+                <p class="p9 p">Real-Time <br> Reporting</p>
+                <p class="p10 p">Task <br> Monitoring</p>
             </div>
 
         </div>
@@ -155,8 +155,9 @@
         <div class="aboutus-row">
             <div class="aboutus-column">
                 <div class="aboutus-content">
-                    <h2>About Us</h2>
-                    <p>At CleanAI, cutting-edge artificial intelligence meets facility and security management
+                    <h2 class="aboutus-content-h2">About Us</h2>
+                    <p class="aboutus-content-p">At CleanAI, cutting-edge artificial intelligence meets facility and
+                        security management
                         solutions. We specialize in
                         harnessing the power of AI to streamline operations, enhance safety protocols, and optimize
                         resource utilization for
@@ -180,25 +181,25 @@
 
     <!-- ===== Indusrties ===== -->
     <section id="Industries">
-        <h2>Industries</h2>
+        <h2 class="Industries-h2">Industries</h2>
         <div class="Industries-row">
-            <div class="Industries-column">
+            <div class="Industries-column Industries-column-1">
                 <img src="./assets/images/industries/industries-1.png" alt="" width="100px">
                 <h5>IT Sectors</h5>
             </div>
-            <div class="Industries-column">
+            <div class="Industries-column Industries-column-2">
                 <img src="./assets/images/industries/industries-2.png" alt="" width="157px">
                 <h5>E-Commerce and <br> Logistics</h5>
             </div>
-            <div class="Industries-column">
+            <div class="Industries-column Industries-column-3">
                 <img src="./assets/images/industries/industries-3.png" alt="" width="157px">
                 <h5>Hospitals and <br> Healthcare</h5>
             </div>
-            <div class="Industries-column">
+            <div class="Industries-column Industries-column-4">
                 <img src="./assets/images/industries/industries-4.png" alt="" width="157px">
                 <h5>Manufacturing</h5>
             </div>
-            <div class="Industries-column">
+            <div class="Industries-column Industries-column-5">
                 <img src="./assets/images/industries/industries-5.png" alt="" width="135px">
                 <h5>Transport</h5>
             </div>
@@ -352,11 +353,14 @@
     </footer>
     <!-- <section id="about" style="height: 700px; background-color: blueviolet;">About Section</section> -->
 
-
+    <!-- Scroll to top button -->
+    <a href="#" id="scrollToTopBtn" title="Go to top">&#8593;</a>
     <!-- ===== JS ===== -->
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
+
+
 </body>
 
 </html>

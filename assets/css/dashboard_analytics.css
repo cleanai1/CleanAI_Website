@@ -35,7 +35,8 @@ a {
     right: 0;
     z-index: 9999;
     background-color: var(--white);
-    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.1);
+    padding: 0px 50px;
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.3);
     /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
 }
 
@@ -43,15 +44,14 @@ a {
     padding: 0px 50px;
     height: 83px;
     background-color: var(--white) !important;
-    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 18px 32px rgba(0, 0, 0, 0.5);
 
-    z-index: 2;
 }
 
 
 
 .nav-logo img {
-    max-width: 70%;
+    max-width: 40%;
 }
 
 .navbar {
@@ -59,6 +59,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+
 }
 
 .hamburger {
@@ -144,7 +145,7 @@ a {
     margin-top: 5px;
     border-radius: 8px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 3;
+    z-index: 1;
 }
 
 .services-dropdown:hover .dropdown-content {
@@ -187,12 +188,26 @@ a {
 
 /* === Responsive For Mobile view Navbar ==== */
 @media only screen and (max-width: 768px) {
+    #nav {
+        padding: 0px;
+        height: 63px;
+
+    }
+
+    .navbar {
+        height: 63px;
+    }
+
+    .nav-logo img {
+        max-width: 30%;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
         /* top: 5rem; */
         z-index: 1;
-        top: 9rem;
+        top: 6rem;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
@@ -230,8 +245,6 @@ a {
 
 }
 
-
-
 /* ====== Dashboard Section ====== */
 #dashboard {
     padding: 50px 100px 50px 100px;
@@ -250,7 +263,7 @@ a {
     font-weight: 600;
     color: #757575;
     padding-bottom: 30px;
-    text-align: left !important;
+    text-align: left;
 }
 
 .dashboard-img {
@@ -269,14 +282,23 @@ a {
 @media (max-width: 768px) {
     #dashboard {
         padding: 50px 20px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
 
     }
 
     #dashboard h2 {
-        font-size: 28px;
+        font-size: 5vw;
         text-align: center;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
+    }
 
+    #dashboard img {
+        width: 45vh;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 30px;
     }
 
 
@@ -296,7 +318,6 @@ a {
 /* ====== we ease your work Section ====== */
 #work {
     padding: 50px 100px 0px 100px;
-
 }
 
 #work h2 {
@@ -305,15 +326,28 @@ a {
     font-weight: 600;
     color: #757575;
     padding-bottom: 30px;
-    text-align: left !important;
+    text-align: left;
 }
 
 #work h2 span {
-
     color: var(--secondaryColor);
 }
 
+/* Media queries for tablet */
+@media (max-width: 768px) {
+    #work {
+        padding: 0px 10px 0px 10px;
+    }
 
+    #work h2 {
+        font-size: 5vw;
+        margin-bottom: 0px;
+        font-weight: 600;
+        color: #757575;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
 
 /* ====== work-1 Section ====== */
 
@@ -374,6 +408,54 @@ a {
 }
 
 
+.work-1-mobile {
+    display: none;
+}
+
+/* Media queries for tablet */
+@media (max-width: 768px) {
+    .work-1-web {
+        display: none;
+    }
+
+    .work-1-mobile {
+        display: block;
+    }
+
+    .work-1-mobile {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background: rgb(31, 143, 205);
+        background: linear-gradient(140deg, rgba(31, 143, 205, 1) -400%, rgba(255, 255, 255, 1) 60%);
+    }
+
+    .work-1-mobile img {
+        width: 45vh;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 0px;
+    }
+
+    .work-1-mobile h1 {
+        font-size: 4vw;
+        color: var(--appBlack);
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .work-1-mobile p {
+        font-size: 3.5vw;
+        color: var(--textSecondary);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
 
 /* ====== work-2 Section ====== */
 
@@ -456,13 +538,10 @@ a {
 
 
 
-
-
 /* ====== Footer Section ====== */
 /* #footer {
     padding: 50px 150px 0px 150px;
 } */
-
 #footer {
     background-color: var(--primaryColor);
     color: #FFFFFF;
@@ -475,6 +554,8 @@ a {
     padding-right: 150px;
     padding-top: 50px;
     margin-top: -5px;
+    position: relative;
+    z-index: 0;
 
 }
 
@@ -621,6 +702,14 @@ a {
     text-align: right;
 }
 
+.footer-social-mobile {
+    display: none;
+}
+
+.footer-contact-mobile {
+    display: none;
+}
+
 /* Media queries for tablet */
 @media (max-width: 768px) {
     #footer {
@@ -633,11 +722,7 @@ a {
         /* Stack columns vertically */
     }
 
-    .footer-col {
-        width: 100%;
-        margin-bottom: 20px;
-        /* Add some space between columns */
-    }
+
 
     .footer-col-left {
         text-align: center;
@@ -652,7 +737,7 @@ a {
 
     .social-icons {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         /* Center align the social icons */
         margin-bottom: 20px;
         /* Add some space between social icons and contact icons */
@@ -663,13 +748,51 @@ a {
         /* Adjust spacing between social icons */
     }
 
+    .footer-contact-mobile {
+        display: block;
+    }
+
+    .footer-contact-web {
+        display: none;
+    }
+
     .footer-bottom-row {
+        flex-direction: column;
+        /* Display items in a column */
+        align-items: center;
+        /* Center align items horizontally */
+        padding-bottom: 30px;
         margin-top: 0px;
     }
 
     .footer-col {
+        text-align: center;
+        /* Center align text within columns */
+        margin-bottom: 20px;
+        /* Add spacing between columns */
+    }
 
-        font-size: 12px;
+    .footer-col p {
+        font-size: 4vw;
+    }
+
+    .footer-social-mobile {
+        position: relative;
+        text-align: center;
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .footer-social-web {
+        display: none;
+    }
+
+    .footer-bottom-row .footer-col:first-child {
+        text-align: center;
+    }
+
+    .footer-bottom-row .footer-col:last-child {
+        text-align: center;
     }
 }
 
@@ -686,4 +809,25 @@ a {
         font-size: 16px;
         /* Adjust font size for smaller screens */
     }
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 28px;
+    color: white;
+    background-color: var(--primaryColor);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#scrollToTopBtn.show {
+    display: block;
 }

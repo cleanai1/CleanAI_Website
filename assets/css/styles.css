@@ -434,6 +434,7 @@ a {
     }
 }
 
+
 /* ====== Analytics and Refined Services ====== */
 .analytics-container {
     padding-left: 50px;
@@ -525,6 +526,7 @@ a {
     font-weight: 500;
     color: var(--primaryColor);
     padding-bottom: 20px;
+
 }
 
 .our-services-row {
@@ -1389,7 +1391,13 @@ a {
         /* Stack columns vertically */
     }
 
+    .footer-col-left img {
+        width: 20vh;
+    }
 
+    .footer-col-left p {
+        font-size: 4.5vw !important;
+    }
 
     .footer-col-left {
         text-align: center;
@@ -1476,4 +1484,25 @@ a {
         font-size: 16px;
         /* Adjust font size for smaller screens */
     }
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 28px;
+    color: white;
+    background-color: var(--primaryColor);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#scrollToTopBtn.show {
+    display: block;
 }
