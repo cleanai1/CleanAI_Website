@@ -89,8 +89,8 @@ window.sr = ScrollReveal({ reset: true });
 sr.reveal('.home-profile', { duration: 3000 });
 
 sr.reveal('.home-content', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -98,8 +98,8 @@ sr.reveal('.home-content', {
 });
 
 sr.reveal('.analytics-contain', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -110,8 +110,8 @@ sr.reveal('.analytics-contain', {
 sr.reveal('.analytics-img', { duration: 3000 });
 
 sr.reveal('.our-services-h2', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -119,8 +119,8 @@ sr.reveal('.our-services-h2', {
 });
 
 sr.reveal('.our-services-column', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -128,8 +128,8 @@ sr.reveal('.our-services-column', {
 });
 
 sr.reveal('.howitwork-h2', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -137,8 +137,8 @@ sr.reveal('.howitwork-h2', {
 });
 
 sr.reveal('.image-container-img', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -149,8 +149,8 @@ sr.reveal('.p', { duration: 6000 });
 sr.reveal('.how-works-btn', { duration: 6000 });
 
 sr.reveal('.aboutus-content-h2', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -158,8 +158,8 @@ sr.reveal('.aboutus-content-h2', {
 });
 
 sr.reveal('.aboutus-content-p', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -170,8 +170,8 @@ sr.reveal('.aboutus-btn', { duration: 6000 });
 sr.reveal('.aboutus-column', { duration: 6000 });
 
 sr.reveal('.Industries-h2', {
-    delay: 75,
-    duration: 1500,
+    delay: 20,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -179,7 +179,7 @@ sr.reveal('.Industries-h2', {
 });
 sr.reveal('.Industries-column-1', {
     delay: 100,
-    duration: 1500,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -188,7 +188,7 @@ sr.reveal('.Industries-column-1', {
 
 sr.reveal('.Industries-column-2', {
     delay: 300,
-    duration: 1500,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -196,7 +196,7 @@ sr.reveal('.Industries-column-2', {
 });
 sr.reveal('.Industries-column-3', {
     delay: 600,
-    duration: 1500,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -204,7 +204,7 @@ sr.reveal('.Industries-column-3', {
 });
 sr.reveal('.Industries-column-4', {
     delay: 900,
-    duration: 1500,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
@@ -212,15 +212,303 @@ sr.reveal('.Industries-column-4', {
 });
 sr.reveal('.Industries-column-5', {
     delay: 1100,
-    duration: 1500,
+    duration: 1000,
     opacity: 0,
     distance: "50%",
     origin: "top",
     reset: true
 });
+
+sr.reveal('.yourwork-h2', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+
+sr.reveal('.howitwork-img-ani', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+
+sr.reveal('.yourwork-p1', {
+    delay: 100,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+
+sr.reveal('.yourwork-p2', {
+    delay: 300,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.yourwork-p3', {
+    delay: 600,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.yourwork-p4', {
+    delay: 900,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.yourwork-p5', {
+    delay: 1100,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.yourwork-p6', {
+    delay: 1300,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.learn-more', { duration: 6000 });
+
+// ======================================
+//     Facility Services Animation
+// ======================================
+
+sr.reveal('.fm-services-h2', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+
+sr.reveal('.fm-services-card-1', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-2', {
+    delay: 100,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-3', {
+    delay: 150,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-4', {
+    delay: 200,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-5', {
+    delay: 250,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-6', {
+    delay: 300,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-7', {
+    delay: 350,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-8', {
+    delay: 400,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-9', {
+    delay: 450,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-10', {
+    delay: 500,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-11', {
+    delay: 550,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+// Mobile view
+
+sr.reveal('.fm-services-card-mobile-1', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-2', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-3', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-4', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-5', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-6', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-7', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-8', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-9', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-10', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.fm-services-card-mobile-11', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.cost-h2', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.cost-column-1', {
+    delay: 150,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.cost-img-ani', { duration: 6000 });
+
+sr.reveal('.template-col', {
+    delay: 20,
+    duration: 1000,
+    opacity: 0,
+    distance: "50%",
+    origin: "top",
+    reset: true
+});
+sr.reveal('.template-column-img', { duration: 6000 });
 // sr.reveal('.aboutus-column', {
-//     delay: 75,
-//     duration: 1500,
+//     delay: 20,
+//     duration: 1000,
 //     opacity: 0,
 //     distance: "50%",
 //     origin: "top",
@@ -229,8 +517,8 @@ sr.reveal('.Industries-column-5', {
 
 
 // sr.reveal('.home-content', {
-//     delay: 75,
-//     duration: 1500,
+//     delay: 20,
+//     duration: 1000,
 //     opacity: 0,
 //     distance: "50%",
 //     origin: "top",
@@ -239,7 +527,7 @@ sr.reveal('.Industries-column-5', {
 
 // sr.reveal('.home-profile', {
 //     delay: 1000,
-//     duration: 1500,
+//     duration: 1000,
 //     opacity: 0,
 //     distance: "50%",
 //     origin: "top",
