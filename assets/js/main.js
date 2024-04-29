@@ -47,6 +47,18 @@ document.addEventListener('DOMContentLoaded', function () {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 });
+// script.js
+
+window.addEventListener('load', function () {
+    const loader = document.querySelector('.loader-wrapper');
+    const content = document.querySelector('.content');
+
+    // Hide loader
+    loader.style.display = 'none';
+
+    // Show content
+    content.style.display = 'block';
+});
 
 
 // ===================================
